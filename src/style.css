@@ -1,6 +1,5 @@
 body {
   background-color: green;
-  box-sizing: border-box;
 }
 .card {
   text-align: center;
@@ -16,16 +15,13 @@ body {
   border: 1px, solid, black;
   position: relative;
 }
-
 .card::before {
-  content: "\2660";
   position: absolute;
   top: 20px;
   left: 20px;
   font-size: 80px;
 }
 .card::after {
-  content: "\2660";
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -33,19 +29,15 @@ body {
 }
 spades.card::before,
 & spades.card::after {
-  content: "\2660";
 }
 clubs.card::before,
 & clubs.card::after {
-  content: "\2663";
 }
 hearts.card::before,
 & hearts.card::after {
-  content: "\2665";
   color: red;
 }
 diams.card::before,
 & diams.card::after {
-  content: "\2666";
   color: red;
 }
