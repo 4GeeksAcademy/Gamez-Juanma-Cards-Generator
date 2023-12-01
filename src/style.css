@@ -6,15 +6,16 @@ body {
   background-color: white;
   margin: auto;
   margin-top: 50px;
-  height: 200px;
+  height: 230px;
   text-align: center;
-  font-size: 80px;
+  font-size: 100px;
   width: 250px;
   padding: 20px;
   padding-top: 180px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid black;
   position: relative;
+  color: black;
 }
 
 .card::before {
